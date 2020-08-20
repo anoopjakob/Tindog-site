@@ -71,6 +71,22 @@ p {
   right: 30%;
 }
 
+@media (max-width:1000px) {
+  h1{
+    font-size: 2rem;;
+  }
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+  .mobile{
+    text-align: center;
+  }
+/* .download-button{
+  width: 30%;
+} */
+}
+
 /* Features */
 #features {
   padding: 7% 15%;
@@ -92,6 +108,11 @@ p {
   color: #ff4c68;
 }
 
+/* .dog-playing-video {
+  padding: 2%;
+  text-align: center;
+  background-color: #fbe2e5;
+} */
 /* Testimonial Section */
 #testimonials {
   text-align: center;
