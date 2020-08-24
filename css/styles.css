@@ -72,17 +72,21 @@ p {
 }
 
 @media (max-width:1000px) {
-  h1{
-    font-size: 2rem;;
+  h1 {
+    font-size: 2rem;
+    ;
   }
+
   .title-image {
     transform: rotate(0);
     position: static;
   }
-  .mobile{
+
+  .mobile {
     text-align: center;
   }
-/* .download-button{
+
+  /* .download-button{
   width: 30%;
 } */
 }
@@ -150,4 +154,27 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: black;
 }
